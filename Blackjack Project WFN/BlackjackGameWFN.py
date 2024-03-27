@@ -179,7 +179,8 @@ while game == 1:
                 else:
                     print(string_list[1])
             else:
-                user_choice = input(f"Your hand is {user_hand} and the dealer is showing {comp_hand[0]}.\nHit, stay, or double down?")
+                user_choice = input(f"Your hand is {user_hand} and the dealer is showing {comp_hand[0]}.\n"
+                                    f"Hit, stay, or double down?")
                 if user_choice.lower() == "stay":
                     winning_hand()
                     bank_calc()
